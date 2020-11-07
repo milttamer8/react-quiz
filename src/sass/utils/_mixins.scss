@@ -1,0 +1,24 @@
+
+@mixin color($color, $theme-default: true) {
+    @if $theme-default {
+        color: $color !important;
+    } @else {
+        color: $color !important;
+    }
+}
+
+@mixin bg($color, $theme-default: true) {
+    @if $theme-default {
+        background: $color;
+    } @else {
+        background: $color;
+    }
+}
+
+@mixin border($color, $theme-default: true) {
+    @if $theme-default {
+        border-color: $color;
+    } @else {
+        border-color: $color;
+    }
+}

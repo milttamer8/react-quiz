@@ -1,0 +1,35 @@
+$fa-font-path:        "./fonts";
+$font: 'Montserrat', sans-serif;
+
+$sizeTtr: 1rem;
+$sizeTtrM: .9rem;
+$sizeSttr: .95rem;
+$sizeSttrM: .9rem;
+$sizePara: .85rem;
+
+$sizeXl: 1.25rem;
+$sizeS: .7rem;
+$sizeXs: .65rem;
+
+
+$dark: #495057;
+$rose: #ed147d;
+$roseSr: #e55573;
+$gris: #8c92a6;
+$grisC: #c5c8d2;
+$grisCBg: #eef0f5;
+$lightPink: #FFEDF4;
+$blueNight: #1F2F49;
+$blueNightSr: #464648;
+$bgBubble: #eef0f5;
+$green: #39b900;
+$greenSr: #81c54e;
+
+$primary: $rose;
+$secondary: $grisCBg;
+
+$top25: 25px;
+
+// @function color($color){
+//     @return map-get($colors, $color);
+// }

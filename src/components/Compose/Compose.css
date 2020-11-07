@@ -1,0 +1,79 @@
+/* .compose {
+  padding: 10px;
+  background: white;
+  border-top: 1px solid #d4d4d4;
+  position: absolute;
+  width: calc(100% - 20px);
+  bottom: 0px;
+}
+
+@supports (backdrop-filter: blur(20px)) {
+  .compose {
+    border: none;
+    background-color: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(20px);
+  }
+}
+
+.compose-input {
+  flex: 1;
+  border: none;
+  font-size: 14px;
+  height: 40px;
+  background: none;
+  width: 100%;
+}
+
+.compose-input::placeholder {
+  opacity: 0.3;
+}
+
+.compose .toolbar-button {
+  color: #bbbbbf;
+  margin-left: 15px;
+}
+
+.compose .toolbar-button:hover {
+  color: #99999c;
+} */
+
+.emoji-hidden {
+  display: none;
+}
+
+.emoji-picker-react {
+  /*display: none !important;*/
+  margin-bottom: 5px !important;
+  padding-bottom: 5px !important;
+}
+
+aside.emoji-picker-react .emoji-scroll-wrapper{
+  overflow: auto !important;
+}
+
+aside.ready-sentences {
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    height: 320px;
+    width: 280px;
+    font-family: sans-serif;
+    border: 1px solid #efefef;
+    border-radius: 5px;
+    box-sizing: border-box;
+    box-shadow: 0 5px 10px #efefef;
+    overflow: hidden;
+    position: relative;
+}
+
+ul.sentence-list {
+  list-style: none;
+}
+
+ul.sentence-list li {
+  cursor: pointer;
+}
+
+ul.sentence-list li:hover {
+  background-color: cadetblue;
+}

@@ -1,0 +1,11 @@
+.add-template {
+    display: none;
+}
+
+.age-range, .filter-group {
+    display: flex;
+}
+
+.form-session {
+    position: relative;
+}

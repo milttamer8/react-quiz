@@ -1,0 +1,7 @@
+.selected-option {
+    border: 2px solid #5a5a5a;
+}
+
+.correct-option {
+    border: 2px solid #1c9963;
+}
